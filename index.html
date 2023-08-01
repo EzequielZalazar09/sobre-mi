@@ -6,22 +6,27 @@
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<!-- En la head reside información acerca del documento, y generalmente no se ve cuando se navega por él -->
 <body>
     <header>
         <h1>Informacion Personal</h1>
         <img src="eze_paginaweb.jpg" alt="Imagen de Perfil" 
     width="144" height="182">
     </header>
-
+    <!-- este elemento sirve de primera toma de contacto y guía a un usuario cuando entra a un sitio web -->
 
     <nav>
         <ul>
-            <li><a href="Datos Básicos">Datos Básicos</a></li>
+            <li><a href="#DatosBásicos">Datos Básicos</a></li>
+            <li><a href="#Intereses">Intereses</a></li>
+            <li><a href="#Estudios">Estudios</a></li>
+            <li><a href="#Experiencia">Experiencia</a></li>
         </ul>
     </nav>
+    <!-- esto es para proporcionar enlaces de navegacion, sea en el doc actual o a otros documentos -->
 
     <main>
-        <article>
+        <article id="DatosBásicos">
             <h2>Datos Básicos</h2>
             <ul>
                 <li><strong>Nombre: </strong>Manuel Ezequiel Zalazar</li>
@@ -30,28 +35,33 @@
             </ul>
         </article>
 
-        <article>
+        <article id="Intereses">
             <h2>Intereses</h2>
             <ul>
                 <li>Futbol</li>
-                <li>Programacion Web</li>
+                <li>Programación Web</li>
                 <li>Actividades Culinarias</li>
             </ul>
         </article>
 
-        <article>
-            <h2>Experiencias</h2>
-            <p>Tornero de CNC hace 14 años en importante empresa metalurgica</p>
+        <article id="Estudios">
+            <h2>Estudios</h2>
+            <ul>
+                <li>Secundiario completo - Colegio N°17 "V Brigada Aérea"</li>
+                <li>Técnico Electronico</li>
+            </ul>   
+        </article>
+
+        <article id="Experiencia">
+            <h2>Experiencia</h2>
+            <p>2009 - 2023: Tornero de CNC (empresa metalúrgica) </p>
         </article>
     </main>
 
-    <aside>
-        <!-- agrega contenido adicional o enlaces relacionados aqui (si es necesario) -->
-    </aside>
-
     <footer>
-        <!-- agrega informacion al pie de pagina -->
+        e-mail: ezebj39@gmail.com
     </footer>
-    
+    <!-- con esto agrego un pie de pagina, en este caso mi direccion de correo electronico -->
+
 </body>
 </html>
