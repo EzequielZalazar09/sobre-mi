@@ -1,0 +1,51 @@
+.Calculadora {
+    background-color:rgb(201, 197, 241);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow:0px 2px 5px;
+    margin:0 auto
+}
+/* estilo del título */
+ h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 4px 4px 5px rgb(90, 71, 71);;
+} 
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(fondo2.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vb;
+
+}
+/* le da estilo a los cuadros de input */
+input[type="number"], select, button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #af4828;
+    border-radius: 55px;
+    font-size: 22px;
+}
+/* estilo boton calcular */
+button.calcular {
+    background-color: rgb(8, 43, 240);
+    color: white;
+}
+/* estilo boton limpiar calculadora */
+button.Limpiar {
+    background-color: yellow;
+}
+p#Resultado {
+    font-size: 36px;
+    font-weight: bold;
+    font-style:oblique;
+    color: blue;
+}
