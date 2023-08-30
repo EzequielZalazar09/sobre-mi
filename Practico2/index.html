@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PiedraPapel Tijera</title>
+</head>
+
+<body>
+   
+    <div class="inicio">
+        <h1>Piedra Papel Tijera!</h1>
+
+        <div class="texto">
+            <input type="text" class="nombreUsuario" placeholder="Ingresa tu nombre" id="nombreUsuario" />
+        </div>
+
+        <button id="go">JUGAR!</button>
+    </div>   
+    
+    <div class="mensajeBienvenida">
+        <p class="texto" id="personalizado"></p>       
+        <p class="texto">El mejor de 5 gana la partida</p>
+        <p class="texto">Que gane el mejor!!!</p>       
+    </div>
+
+    <div class="botonera">
+        <button class="seleccion" id="piedra"><img class="imgContenedor" src="puño.jpg" alt=""></button>
+        <button class="seleccion" id="papel"><img class="imgContenedor" src="papel.jpg" alt=""></button>
+        <button class="seleccion" id="tijera"><img class="imgContenedor" src="tijera.jpg" alt=""></button>
+    </div>
+
+    <div class="info">
+        <div class="texto" id="jugadaUsuario"></div>
+        <div class="texto" id="jugadaComputadora"></div>
+        <div class="texto" id="ganador"></div>       
+        <div class="texto" id="contadorUsuario"></div>
+        <div class="texto" id="contadorComputadora"></div>
+    </div>
+
+    <div class="resultadoFinal">
+        <div id="ganadorFinal"></div>
+        <button id="reset" onclick="location.reload()">Jugar de nuevo...</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
